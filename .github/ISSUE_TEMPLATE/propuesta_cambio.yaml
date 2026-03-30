@@ -1,5 +1,5 @@
 name: Propuesta de Cambio en Gobernanza
-about: Sugiere una mejora o cambio en los estatutos, valores o reglas del JUG.
+description: Sugiere una mejora o cambio en los estatutos, valores o reglas del JUG.
 title: "propuesta: [Breve descripción]"
 labels: ["propuesta", "discusión"]
 body:
