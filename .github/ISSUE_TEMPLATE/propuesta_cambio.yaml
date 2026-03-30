@@ -1,0 +1,42 @@
+name: Propuesta de Cambio en Gobernanza
+about: Sugiere una mejora o cambio en los estatutos, valores o reglas del JUG.
+title: "propuesta: [Breve descripción]"
+labels: ["propuesta", "discusión"]
+body:
+  - type: markdown
+    attributes:
+      value: "Gracias por proponer una mejora para la gobernanza del Panama JUG. Por favor, completa los siguientes campos para evaluar la viabilidad de la propuesta."
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema u Oportunidad
+      description: "Describe el problema actual o la oportunidad de mejora que detectaste en la gobernanza."
+      placeholder: "Ejemplo: El sistema actual de votación no escala cuando seamos más de..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solucion
+    attributes:
+      label: Propuesta de Solución
+      description: "¿Qué sugieres cambiar, agregar o eliminar? Sé lo más específico posible."
+      placeholder: "Ejemplo: Sugiero modificar la sección X del archivo LEADERSHIP.md para..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: beneficio
+    attributes:
+      label: Beneficio para el Panama JUG
+      description: "¿Cómo ayuda esto a la comunidad, a los miembros o a la industria tecnológica de Panamá?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto
+      description: "¿Afecta esto a algún rol existente, proceso actual o archivo en específico?"
+    validations:
+      required: false
