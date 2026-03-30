@@ -1,0 +1,48 @@
+name: Reporte de Incidente (Código de Conducta)
+description: Reporta una violación al Código de Conducta de la comunidad.
+title: "incidente: [Breve descripción del reporte]"
+labels: ["incidente", "confidencial"]
+body:
+  - type: markdown
+    attributes:
+      value: "Este formulario es estrictamente confidencial y será revisado únicamente por el equipo de JUG Leaders."
+
+  - type: input
+    id: fecha_hora
+    attributes:
+      label: Fecha y Hora Aproximada
+      placeholder: "Ejemplo: 29 de marzo de 2026, 10:00 PM"
+    validations:
+      required: true
+
+  - type: input
+    id: espacio
+    attributes:
+      label: Espacio donde ocurrió
+      placeholder: "Ejemplo: LinkedIn, GitHub, Evento presencial, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: personas
+    attributes:
+      label: Personas Involucradas
+      description: "Indica los nombres o usuarios de los implicados y de posibles testigos."
+    validations:
+      required: true
+
+  - type: textarea
+    id: descripcion
+    attributes:
+      label: Descripción de lo Ocurrido
+      description: "Por favor, describe detalladamente lo sucedido citando comportamientos específicos que consideras que violan el Código de Conducta."
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia
+      description: "Si cuentas con enlaces a comentarios o correos que sirvan de respaldo, por favor lístalos aquí. Puedes adjuntar capturas de pantalla directamente una vez que se cree el Issue."
+    validations:
+      required: false
