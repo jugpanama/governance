@@ -1,0 +1,55 @@
+name: Postulación a JUG Leader de Vertical
+description: Postúlate para liderar formalmente una de las verticales tras cumplir tus 3 meses de voluntariado.
+title: "postulación-líder: [Tu Nombre] - [Vertical que lideras o deseas liderar]"
+labels: ["postulación", "evaluación-líder"]
+body:
+  - type: markdown
+    attributes:
+      value: "Este formulario es para uso exclusivo de voluntarios que han cumplido su periodo de prueba de 3 meses y desean asumir la titularidad de una vertical operativa."
+
+  - type: input
+    id: tiempo_servicio
+    attributes:
+      label: Fecha de Inicio como Voluntario
+      placeholder: "Ejemplo: Enero de 2026"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: vertical
+    attributes:
+      label: Vertical de Liderazgo
+      description: "Selecciona el área que deseas liderar."
+      options:
+        - "Operaciones y Logística"
+        - "Marketing y Marca"
+        - "Programas y Contenido"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resumen_gestion
+    attributes:
+      label: Resumen de Gestión
+      description: "Describe brevemente las tareas en las que apoyaste durante tus 3 meses de prueba y el impacto que generaron en la comunidad."
+      placeholder: "Ejemplo: Durante el trimestre apoyé en la gestión de X eventos y la automatización de..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: propuesta_direccion
+    attributes:
+      label: Propuesta de Dirección
+      description: "Como JUG Leader de esta vertical, ¿cuáles son tus objetivos principales o mejoras que buscas implementar en el próximo trimestre?"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: validacion_requisitos
+    attributes:
+      label: Declaración de Requisitos
+      options:
+        - label: "He cumplido satisfactoriamente los 3 meses requeridos como voluntario activo."
+          required: true
+        - label: "Entiendo que mi postulación será sometida a votación de los JUG Leaders activos según los estatutos."
+          required: true
