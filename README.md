@@ -27,5 +27,5 @@ Convertir a Panamá en el hub regional de excelencia en arquitectura Cloud Nativ
 
 Cualquier evolución de nuestros estatutos o cambios en la dirección administrativa debe quedar registrada aquí. Te invitamos a revisar los siguientes puntos:
 
-* **Consultar los Lineamientos:** Revisa el archivo `LEADERSHIP.md` para entender el modelo de voluntariado y liderazgo.
+* **Consultar los Lineamientos:** Revisa el archivo [LEADERSHIP.md](LEADERSHIP.md) para entender el modelo de voluntariado y liderazgo.
 * **Proponer Mejoras:** Si detectas una oportunidad para optimizar nuestra gobernanza, abre un *Issue* para iniciar el debate técnico.
