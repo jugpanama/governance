@@ -1,0 +1,45 @@
+name: Postulación a Semillero de Voluntarios
+description: Postúlate para apoyar en una de las verticales operativas del JUG.
+title: "postulación: [Tu Nombre] - [Vertical de Interés]"
+labels: ["postulación", "voluntario-activo"]
+body:
+  - type: markdown
+    attributes:
+      value: "Completa este formulario para iniciar tu proceso como voluntario en el Panama JUG."
+
+  - type: input
+    id: presentacion
+    attributes:
+      label: Presentación Corta
+      description: "Dinos a qué te dedicas o cuál es tu rol actual."
+      placeholder: "Ejemplo: Estudiante de Ingeniería / Desarrollador Backend"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: vertical
+    attributes:
+      label: Vertical de Interés
+      description: "Selecciona el área donde deseas aportar."
+      options:
+        - "Operaciones y Logística"
+        - "Marketing y Marca"
+        - "Programas y Contenido"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expectativas
+    attributes:
+      label: Aporte y Expectativas
+      description: "Cuéntanos un poco sobre tu experiencia o lo que te gustaría aprender/hacer en esta vertical durante tus 3 meses de prueba."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: compromiso
+    attributes:
+      label: Compromiso de Permanencia
+      options:
+        - label: "Entiendo que los primeros 3 meses son un periodo de prueba para validar consistencia y alineación con los valores del JUG."
+          required: true
